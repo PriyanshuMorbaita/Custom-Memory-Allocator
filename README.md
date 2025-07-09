@@ -13,5 +13,7 @@ This repository contains a simple, educational block-based memory allocator impl
 **Educational Design:** Simple, readable code ideal for learning about memory management internals.
 
 **Example Usage**
-<pre> ```c int8 *p = (int8*)alloc(7); int8 *p2 = (int8*)alloc(2000); destroy(p2); show_allocation(); ``` 
-</pre>
+```c int8 *p = (int8*)alloc(7);```
+```int8 *p2 = (int8*)alloc(2000);```
+```destroy(p2); show_allocation(); ``` 
+
